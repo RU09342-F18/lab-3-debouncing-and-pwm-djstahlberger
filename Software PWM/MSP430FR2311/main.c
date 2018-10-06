@@ -8,12 +8,12 @@ void LEDSetup(void){
 
     P1SEL0 &= ~BIT0;             //Sets P1 to GPIO
     P1SEL1 &= ~BIT0;             //Sets P1 to GPIO
-    P1DIR |= BIT0;          //Sets Pin 1.0 as an output
-    P1OUT &= ~BIT0;          //Sets LED 1.0 on
+    P1DIR |= BIT0;               //Sets Pin 1.0 as an output
+    P1OUT &= ~BIT0;              //Sets LED 1.0 on
 
     P2SEL0 &= ~BIT0;             //Sets P2 to GPIO
     P2SEL1 &= ~BIT0;             //Sets P2 to GPIO
-    P2DIR |= BIT0;          //Sets Pin 2.0 as an output
+    P2DIR |= BIT0;               //Sets Pin 2.0 as an output
     P2OUT &= ~BIT0;         //Pin 2.0 LED set off
 }
 
